@@ -4,57 +4,26 @@ body{
 	background-attachment:fixed;
 }
 
+/*Style the table*/
+table,th,td{
+	border:2px solid black;
+}
+
+/*Style heading 3 tag*/
 h3{
-	background-color:lightGreen;
-}
-
-/*Style the top banner*/
-.banner{
-	text-align:center;
-	background-color:lightBlue;
-	height:95px;
-}
-
-/*Style title gif*/
-#title-gif{
-	width:300px;
-	float:left;
-}
-
-/*Style the title id*/
-#title{
-	font-size:70px;
-	background-color:black;
-	color:orange;
-	text-align:center;
-	font-weight:bolder;
-}
-
-/*Style banner link tags and when they hover over them*/
-.banner>a{
-	font-size:20px;
-	border:5px solid black;
 	background-color:green;
-	color:cyan;
-	padding:5px;
-	margin:20px;
-}
-
-.banner>a:hover{
-	background-color:lightGreen;
-	color:green;
 }
 
 /*Style the content class*/
 .content{
-	background-color:Yellow;
+	background-color:lightSkyBlue;
 	border:4px solid black;
 	max-width:200px;
 }
 
 /*Style the img tags*/
 img{
-	width:400px;
+	width:388px;
 	border:4px solid black;
 }
 
@@ -70,20 +39,19 @@ img{
 	max-width:1200px;
 	background-color:lightGray;
 	opacity:85%;
+	font-weight:bold;
 }
-#table-header{
+
+/*Style the table rows*/
+th{
 	background-color:lightGreen;
 }
 #first{
-	background-color:gold;
+	background-color:lightSteelBlue;
 }
 #second{
-	background-color:silver;
+	background-color:red;
 }
 #third{
-	background-color:goldenRod;
-}
-
-#link-top{
-	background-color:orange;
+	background-color:dodgerBlue;
 }

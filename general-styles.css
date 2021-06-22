@@ -1,0 +1,48 @@
+/*Style the top banner*/
+.banner{
+	text-align:center;
+	background-color:lightBlue;
+	height:95px;
+}
+
+/*Style title gif*/
+#title-gif{
+	width:300px;
+	float:left;
+}
+
+/*Style the title id*/
+#title{
+	font-size:70px;
+	background-color:black;
+	color:orange;
+	text-align:center;
+	font-weight:bolder;
+}
+
+/*Style banner link tags and when they hover over them*/
+.banner>a{
+	font-size:20px;
+	border:5px solid black;
+	background-color:green;
+	color:cyan;
+	padding:5px;
+	margin:20px;
+}
+
+.banner>a:hover{
+	background-color:lightGreen;
+	color:green;
+}
+
+/*Style validator images*/
+.validate-img{
+	width:100px;
+	border:none;
+	transition:none;
+	
+}/*Style the img tags*/
+img{
+	width:388px;
+	border:4px solid black;
+}
