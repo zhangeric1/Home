@@ -3,12 +3,6 @@ body{
 	background-color:orange;
 }
 
-/*Style links in the banner when they are hovered over*/
-.banner>a:hover{
-	background-color:lightGreen;
-	color:green;
-}
-
 /*Style header 1 tags*/
 .header{
 	text-align:center;
@@ -27,4 +21,3 @@ body{
 .index-img:hover{
 	width:600px;
 }
-

@@ -1,0 +1,36 @@
+/*Style the body tag*/
+body{
+	background-image:url("images/dreams-background.jpg");
+	background-attachment:fixed;
+}
+
+/*Style the entire page*/
+.page{
+	margin:auto;
+	padding:0px 30px 30px 30px;
+	max-width:1200px;
+	background-color:lightGray;
+	opacity:85%;
+	font-weight:bold;
+}
+
+/*Style the title of the page*/
+#page-title{
+	border:4px solid black;
+	padding:0px 4px 0px 4px;
+	text-align:center;
+	font-weight:bolder;
+	background-color:orange;
+}
+
+/*Style the content class*/
+.content{
+	background-color:lightSkyBlue;
+	border:4px solid black;
+	max-width:200px;
+}
+
+/*Style heading 3 tag*/
+h3{
+	background-color:Green;
+}

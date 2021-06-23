@@ -1,10 +1,10 @@
 /*Style the body tag*/
 body{
-	background-image:url("images/index-background.jpg");
+	background-image:url("images/adventures-background.jpg");
 	background-attachment:fixed;
 }
 
-/*Style the entire page excluding banner*/
+/*Style the entire page*/
 .page{
 	margin:auto;
 	padding:0px 30px 30px 30px;
@@ -32,18 +32,7 @@ body{
 
 /*Style heading 3 tag*/
 h3{
-	background-color:green;
-}
-
-/*Style the img tags*/
-img{
-	width:388px;
-	border:4px solid black;
-}
-
-/*Style the favorite color when hovered over*/
-#hover-color:hover::first-line{
-	background-color:lightSkyBlue;
+	background-color:Green;
 }
 
 /*Style the table*/
@@ -51,16 +40,17 @@ table,th,td{
 	border:2px solid black;
 }
 
-/*Style the table rows*/
+/*Style the table header background-color and first, second, third*/
 th{
 	background-color:lightGreen;
 }
+
 #first{
-	background-color:lightSteelBlue;
+	background-color:yellow;
 }
 #second{
-	background-color:red;
+	background-color:orange;
 }
 #third{
-	background-color:dodgerBlue;
+	background-color:red;
 }

@@ -8,19 +8,25 @@
 		<link rel="stylesheet" href="general-styles.css">
 	</head>
 	<body>
+		<!--Display gif, title, and banner which will be on each page-->
 		<img id = "title-gif" src = "images/car.gif" alt = "A car gif">
 		<h1 id = "title">Eric Zhang's Website</h1>
+		<!--The "banner" class will be styled in CSS-->
 		<div class = "banner">
 			<br><br>
 			<a href = "index.html">Homepage</a>
 			<a href = "about-me.html">About Me</a>
-			<a href = "hobbies.html">Cool Experiences</a>
-			<a href = "goals.html">Dreams for the Future</a>
+			<a href = "adventures.html">My Adventures</a>
+			<a href = "dreams.html">Dreams for the Future</a>
 			<a href = "references.html">References</a>
 		</div>
+		
+		<!--Start "page" div. This will be styled in CSS-->
 		<div class = "page">
-		<h1>About Me</h1>
+		<h1 id = "page-title">About Me</h1>
 		<hr>
+		
+		<!--"content" div for list to parts of the page-->
 		<div class = "content">
 		<h2>Content:</h2>
 		<ol>
@@ -37,6 +43,7 @@
 		</ol>
 		</div>
 		<hr>
+		<!--"facts" id, skips here from "content"-->
 		<h3 id = "facts">BASIC FACTS</h3>
 		<p>Full name: Eric Zi Wang Zhang</p>
 		<p id = "hover-color">Favorite color: Light Sky Blue (Hover over me!)</p>
@@ -44,35 +51,39 @@
 		<p>Favorite car: Bugatti Chiron</p>
 		<p>Favorite book: The Da Vinci code</p>
 		<hr>
+		<!--"hobbies" id, skips here from "content"-->
 		<h3 id = "hobbies">HOBBIES AND INTERESTS</h3>
-		<h4 class = "hobbies-title">BASKETBALL</h4> 
+		<h4>BASKETBALL</h4> 
 		<p>Basketball is one of my favorite sports and pastimes. I usually go to an outdoor basketball court with my brother 
 		and we play or practice together. I really enjoy the fast paced thrill of a basketball game as well as the satisfaction of sinking
 		a shot. Not only that, but it also helps calm me down when I am stressed by being able to release my energy on the court. Although
 		I love basketball, I don't follow any professional leagues.</p>
+		<!--Add some images-->
 		<img src = "images/basketball.jpg" alt = "image of a basketball">
 		<br>
-		<!--Rules of basketball-->
-		<div class = "basics">
-		Basketball Basics/Objectives:
+		<!--Absolute external link to Wikipedia-->
+		Basketball Basics/Objectives (go to <a href = "https://en.wikipedia.org/wiki/Rules_of_basketball">https://en.wikipedia.org/wiki/Rules_of_basketball</a> to learn more):
 		<ol>
 			<li>2 teams have their own sides and their own nets (hoops/baskets). They must prevent opponents from scoring (getting the ball into their net).</li>
-			<li>Dribble the ball by bouncing it on the ground with your hands. DON'T move with the ball without dribbling (a "travel" is an illegal move).</li>
+			<li>Dribble the ball by bouncing it on the ground with your hands. DON'T move with the ball without dribbling ("travel" is an illegal move).</li>
 			<li>Shoot the ball into the opponent's net (jump and throw the ball)</li>
-			<li>If the opponents have possesion, make sure they can't get past you and score(no pushing or shoving!).</li>
+			<li>If the opponents have possesion, make sure they can't get past you and score (no pushing or shoving!).</li>
 		</ol>
-		</div>
 		<hr>
-		<h4 class = "hobbies-title">CARS</h4>
-		<p style = "float:left">Cars are a great interest of mine, especially supercars (you know, the loud and shiny ones?)! Their roaring engines and magnificent designs are what appeal to me the most.
+		<h4>CARS</h4>
+		<p>Cars are a great interest of mine, especially supercars (you know, the loud and shiny ones?)! Their roaring engines and magnificent designs are what appeal to me the most.
 		I've seen plenty of nice cars from Aston Martins to Mclarens, but I still make sure to be on the lookout whenever I go ouside. Below is a ranking of my favorite cars:</p>
+		
+		<!--Table for the ranked cars, will be styled in CSS-->
 		<table>
 			<tr>
+				<!--th and td tags are different-->
 				<th>Ranking</th>
 				<th>Car name</th>
 				<th>Manufacturer</th>
 				<th>Price</th>
 				<th>Image of car</th>
+				<th>Related videos</th>
 			</tr>
 			<tr id = "first">
 				<td>1</td>
@@ -80,14 +91,16 @@
 				<td>Bugatti</td>
 				<td>$2,998,000</td>
 				<td><img src = "images/bugatti.jpg" alt = "Image of Bugatti Chiron"></td>
-				
+				<!--Embed Youtube video-->
+				<td><iframe width="400" height="250" src="https://www.youtube.com/embed/PkkV1vLHUvQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 			</tr>
 			<tr id = "second">
 				<td>2</td>
-				<td>Ferrari Laferrari</td>
+				<td>Ferrari LaFerrari</td>
 				<td>Ferrari</td>
 				<td>$1,420,112</td>
 				<td><img src = "images/laferrari.jpg" alt = "Image of a Ferrari Laferrari"></td>
+				<td><iframe width="400" height="250" src="https://www.youtube.com/embed/iRsV6YpLsKA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 			</tr>
 			<tr id = "third">
 				<td>3</td>
@@ -95,14 +108,16 @@
 				<td>Ford</td>
 				<td>$500,000</td>
 				<td><img src = "images/fordgt.jpg" alt = "Image of Ford GT"></td>
+				<td><iframe width="400" height="250" src="https://www.youtube.com/embed/rhJgPO9iT7I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 			</tr>
 		</table>
 		<hr>
-		<h4 class = "hobbies-title">PHOTOGRAPHY</h4>
+		<h4>PHOTOGRAPHY</h4>
 		<p>The last hobby I'll be talking about is photography. I've loved taking pictures of landscapes and objects all my life, in fact, one reason why I 
 		enjoy having my phone, is that it has many different camera modes: picture, video, hyperlapse, macro, panorama, slo-mo, and even super slo-mo! I usually use my phone
-		to capture beautiful landscapes and awesome cars. Scroll down to the Photo Gallery to see some of my shots!</p>
+		to capture breathtaking landscapes and awesome cars. Scroll down to the Photo Gallery to see some of my shots!</p>
 		<hr>
+		<!--"photos" id, skips here from "content"-->
 		<h3 id = "photos">PHOTO GALLERY</h3>
 		<img src = "images/river.jpg" alt = "Image of river">
 		<img src = "images/nismo.jpg" alt = "Image of Nissan Nismo">
@@ -110,7 +125,15 @@
 		<img src = "images/lamborghini.jpg" alt = "Image of Lamborghini">
 		<img src = "images/beach.jpg" alt = "Image of beach">
 		<img src = "images/mclaren.jpg" alt = "Image of a Mclaren">
+		
+		<!--Internal link to return to top-->
 		<a href = "about-me.html">Back to top</a>
+		<!--End of "page" div-->
 		</div>
+		
+		<!--Images and links to validation website-->
+		<a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fzhangeric1.github.io%2Fhome%2Fabout-me.html"><img src = "images/valid-html.png" alt = "Image of HTML validator" class = "validate-img"></a>
+		<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fzhangeric1.github.io%2Fhome%2Fabout-me-styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src = "images/valid-css.png" alt = "Image of CSS validator" class = "validate-img"></a>
+		<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fzhangeric1.github.io%2Fhome%2Fgeneral-styles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src = "images/valid-css.png" alt = "Image of CSS validator" class = "validate-img"></a>
 	</body>
 </html>
