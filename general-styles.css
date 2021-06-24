@@ -48,3 +48,9 @@ img{
 	width:388px;
 	border:4px solid black;
 }
+
+/*Style copyright class (Sibling selector is innefecient because index.html has no page class)*/
+.copyright{
+	background-color:white;
+	max-width:130px;
+}
